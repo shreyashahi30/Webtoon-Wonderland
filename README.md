@@ -39,11 +39,6 @@ A single-page application that showcases the top 5 fantasy webtoons. This projec
   - npm (Node Package Manager)
   - nodemon (for auto-restarting the server)
 
-## Project Structure
-
-webtoon-showcase/ ├── client/ # Front-End (React) │ ├── public/ # Static assets │ │ ├── index.html # Main HTML file │ │ ├── favicon.ico # Favicon │ │ └── manifest.json # Web app manifest │ ├── src/ # Source code │ │ ├── components/ # React components │ │ │ ├── WebtoonCard.js # Component to display each webtoon │ │ │ ├── Voting.js # Component for voting feature │ │ │ └── Header.js # Header component │ │ ├── pages/ # Page components │ │ │ └── Home.js # Home page │ │ ├── App.js # Main App component │ │ ├── index.js # Entry point for React app │ │ ├── styles/ # CSS styles │ │ │ ├── App.css # Main stylesheet │ │ │ └── WebtoonCard.css # Styles for WebtoonCard │ │ └── utils/ # Utility functions (e.g., API calls) │ │ └── api.js # Functions to interact with the API │ ├── package.json # Front-End dependencies │ └── .env # Environment variables (API URLs, etc.) ├── server/ # Back-End (Node.js/Express) │ ├── models/ # Database models │ │ └── webtoon.js # Webtoon model for MongoDB │ ├── routes/ # API routes │ │ └── webtoons.js # Route for webtoon data │ ├── controllers/ # Controllers for handling logic │ │ └── webtoonController.js # Controller for webtoon-related logic │ ├── database/ # Database connection setup │ │ └── db.js # MongoDB connection │ ├── app.js # Main server file │ ├── package.json # Back-End dependencies │ └── .env # Environment variables (DB credentials, etc.)
-
-
 ## Getting Started
 
 ### Prerequisites
@@ -91,12 +86,12 @@ cd client
 ### Install the dependencies:
 
 bash
-Copy code
 npm install
 Start the React application:
 
 bash
 npm start
+
 **Usage**
 Once both the front-end and back-end servers are running, navigate to http://localhost:3000 in your web browser to view the application.
 
