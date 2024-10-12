@@ -87,7 +87,8 @@ cd client
 
 bash
 npm install
-Start the React application:
+
+**Start the React application:**
 
 bash
 npm start
