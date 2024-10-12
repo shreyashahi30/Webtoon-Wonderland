@@ -50,7 +50,7 @@ A single-page application that showcases the top 5 fantasy webtoons. This projec
 
 1. **Clone the repository**:
 
-   ```bash
+   bash
    git clone https://github.com/yourusername/webtoon-showcase.git
    cd webtoon-showcase
    
@@ -59,26 +59,29 @@ A single-page application that showcases the top 5 fantasy webtoons. This projec
 Navigate to the server directory:
 
 bash
+
 cd server
-Install the dependencies:
+
+**Install the dependencies:**
 
 bash
+
 npm install
 
 ### Create a .env file in the server directory with the following content:
 
-plaintext
 MONGO_URI=mongodb://localhost:27017/webtoonDB
 PORT=5000
 
 ### Start the server:
 
 bash
+
 npm run dev
 
 ### Set up the Front-End:
 
-Open a new terminal, navigate to the client directory:
+**Open a new terminal, navigate to the client directory:**
 
 bash
 cd client
@@ -86,11 +89,13 @@ cd client
 ### Install the dependencies:
 
 bash
+
 npm install
 
 **Start the React application:**
 
 bash
+
 npm start
 
 **Usage**
